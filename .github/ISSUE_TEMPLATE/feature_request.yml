@@ -1,0 +1,28 @@
+name: 功能建议
+description: 描述一个希望 Hai提词器解决的真实场景
+title: "[建议] "
+labels: [enhancement]
+body:
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 你在做什么，什么时候遇到了问题？
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 当前问题
+      description: 现在的做法为什么不够好？
+    validations:
+      required: true
+
+  - type: textarea
+    id: expectation
+    attributes:
+      label: 希望的体验
+      description: 你希望 Hai提词器怎样帮助你？
+    validations:
+      required: true
