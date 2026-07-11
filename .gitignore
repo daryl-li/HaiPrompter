@@ -1,0 +1,24 @@
+# macOS
+.DS_Store
+
+# Local release files should be uploaded to GitHub Releases, not committed.
+*.zip
+*.dmg
+*.pkg
+*.app
+
+# Keep the public solution repo free of build outputs and source drafts.
+build/
+dist/
+DerivedData/
+*.swift
+Package.swift
+Info.plist
+Resources/
+Sources/
+HaiPrompter-Source-Draft-DoNotPublish/
+
+# Local helper state
+.env
+.env.*
+node_modules/
